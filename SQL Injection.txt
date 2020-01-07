@@ -1,0 +1,8 @@
+https://sushant747.gitbooks.io/total-oscp-guide/sql-injections.html 
+
+Cybrary  - Entire video series is good but the SQLi Video is really good imo
+https://www.cybrary.it/course/advanced-penetration-testing/
+
+SQL Injections: OWASP - https://www.owasp.org/index.php/SQL_Injection
+
+Pentest Monkey SQL Cheat Sheets - http://pentestmonkey.net/category/cheat-sheet/sql-injection 
