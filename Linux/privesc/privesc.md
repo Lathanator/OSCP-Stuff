@@ -12,6 +12,8 @@
 * **cat /etc/issue**	|| *As above*
 * **cat /proc/cpuinfo**	|| *CPU information*
 * **df -a**	|| *File system information*
+* **sudo -V** || *sudo version*
+* **find / -name %program_name% 2>/dev/null** || *find a program*
 
 ## User Enumeration
 
