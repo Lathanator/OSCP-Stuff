@@ -2,9 +2,6 @@
 
 ## OS ENUMERATION
 
-
-   
-
 * **uname -a**	 || *Print all available system information*
 * **uname -r** ||	*Kernel release*
 * **uname -n** ||	*System hostname*
@@ -19,3 +16,5 @@
 ## User Enumeration
 
 * **for i in $(cat /etc/passwd 2>/dev/null| cut -d":" -f1 2>/dev/null);do id $i;done 2>/dev/null** || *lists UIDs and groups*
+* **sudo -l, cat /etc/sudoers** || view sudo permissions of the current users
+* **finger, pinky, users, who -a, id** || *curently logged in users*
