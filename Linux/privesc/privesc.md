@@ -20,3 +20,9 @@
 * **for i in $(cat /etc/passwd 2>/dev/null| cut -d":" -f1 2>/dev/null);do id $i;done 2>/dev/null** || *lists UIDs and groups*
 * **sudo -l, cat /etc/sudoers** || view sudo permissions of the current users
 * **finger, pinky, users, who -a, id** || *curently logged in users*
+
+## File Esc
+
+* **find . -type f -exec grep -i -I "PASSWORD" {} /dev/null \;** || *find passwords in file*
+* **grep --color=auto -rnw '/' -ie "PASSWORD" --color=always 2> /dev/null** || *same as above*
+
