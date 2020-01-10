@@ -25,4 +25,3 @@
 
 * **find . -type f -exec grep -i -I "PASSWORD" {} /dev/null \;** || *find passwords in file*
 * **grep --color=auto -rnw '/' -ie "PASSWORD" --color=always 2> /dev/null** || *same as above*
-
