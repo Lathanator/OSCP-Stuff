@@ -1,0 +1,18 @@
+file:///root/Documents/OSCP-Stuff/Linux/Boxes/VulnHub/Kioptrux%3A_Level_1.1/enumeration.md {"mtime":1578611562450,"ctime":1578611554340,"size":0,"etag":"34eqgs31n0","orphaned":false}
+# enumeration
+
+## NMAP
+
+Nmap 7.80 scan initiated Tue Jan  7 20:59:10 2020 as: 
+nmap -sV -sC -oA scans/nmap 192.168.0.101
+PORT     STATE SERVICE    VERSION
+22/tcp   open  ssh        OpenSSH 3.9p1 (protocol 1.99)
+80/tcp   open  http       Apache httpd 2.0.52 ((CentOS))
+111/tcp  open  rpcbind    2 (RPC #100000)
+443/tcp  open  ssl/https?
+631/tcp  open  ipp        CUPS 1.1
+3306/tcp open  mysql      MySQL (unauthorized)
+
+
+
+

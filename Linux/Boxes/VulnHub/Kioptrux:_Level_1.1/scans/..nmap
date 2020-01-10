@@ -1,0 +1,18 @@
+# Nmap 7.80 scan initiated Tue Jan  7 20:13:22 2020 as: nmap -sV -sC -oA . 192.168.0.1
+Nmap scan report for 192.168.0.1
+Host is up (0.064s latency).
+Not shown: 994 closed ports
+PORT      STATE    SERVICE    VERSION
+22/tcp    filtered ssh
+23/tcp    filtered telnet
+53/tcp    open     domain     dnsmasq 2.78
+| dns-nsid: 
+|   id.server: chndnsrrpc09
+|_  bind.version: dnsmasq-2.78
+80/tcp    open     http       lighttpd
+443/tcp   open     ssl/https?
+49152/tcp open     upnp       Portable SDK for UPnP devices 1.6.22 (Linux 3.12.14; UPnP 1.0)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel:3.12.14
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Jan  7 20:15:59 2020 -- 1 IP address (1 host up) scanned in 157.47 seconds

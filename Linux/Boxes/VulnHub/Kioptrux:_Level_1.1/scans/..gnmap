@@ -1,0 +1,4 @@
+# Nmap 7.80 scan initiated Tue Jan  7 20:13:22 2020 as: nmap -sV -sC -oA . 192.168.0.1
+Host: 192.168.0.1 ()	Status: Up
+Host: 192.168.0.1 ()	Ports: 22/filtered/tcp//ssh///, 23/filtered/tcp//telnet///, 53/open/tcp//domain//dnsmasq 2.78/, 80/open/tcp//http//lighttpd/, 443/open/tcp//ssl|https?///, 49152/open/tcp//upnp//Portable SDK for UPnP devices 1.6.22 (Linux 3.12.14; UPnP 1.0)/	Ignored State: closed (994)
+# Nmap done at Tue Jan  7 20:15:59 2020 -- 1 IP address (1 host up) scanned in 157.47 seconds

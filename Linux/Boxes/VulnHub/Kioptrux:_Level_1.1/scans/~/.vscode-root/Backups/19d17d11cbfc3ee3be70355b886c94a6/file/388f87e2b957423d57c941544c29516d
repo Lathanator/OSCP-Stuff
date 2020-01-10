@@ -1,0 +1,17 @@
+file:///root/Documents/OSCP-Stuff/Linux/Boxes/VulnHub/Kioptrux%3A_Level_1.1/exploit.md {"mtime":1578612025530,"ctime":1578611679047,"size":154,"etag":"34eqhi2k24u","orphaned":false}
+# exploit
+
+
+### http://192.168.0.101:80
+
+> Login page detected with a potential SQL injection
+
+>> Login page was bypassed using "admin' ##
+
+>> Next, admin console with prompt where a ping command can be issued
+
+>>> successfully pinged google and found ability to execute other commands using ";" after ping
+
+>> used command execution in the ping command prompt to get a reverse shell
+
+
