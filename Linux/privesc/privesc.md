@@ -1,6 +1,6 @@
-#Priv Esc
+# Priv Esc
 
-##OS ENUMERATION
+## OS ENUMERATION
 ```
    OS infomation: cat /etc/*-release, cat /etc/issue
    
