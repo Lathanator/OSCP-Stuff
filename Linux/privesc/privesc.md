@@ -15,3 +15,7 @@
 * **cat /etc/issue**	|| *As above*
 * **cat /proc/cpuinfo**	|| *CPU information*
 * **df -a**	|| *File system information*
+
+## User Enumeration
+
+* **for i in $(cat /etc/passwd 2>/dev/null| cut -d":" -f1 2>/dev/null);do id $i;done 2>/dev/null** || *lists UIDs and groups*
