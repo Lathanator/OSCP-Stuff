@@ -1,0 +1,4 @@
+# Nmap 7.80 scan initiated Sat Jan 11 01:21:33 2020 as: nmap -sV -sC -oA scans/nmap 192.168.0.70
+Host: 192.168.0.70 (kioptrix3.com)	Status: Up
+Host: 192.168.0.70 (kioptrix3.com)	Ports: 22/open/tcp//ssh//OpenSSH 4.7p1 Debian 8ubuntu1.2 (protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.2.8 ((Ubuntu) PHP|5.2.4-2ubuntu5.6 with Suhosin-Patch)/	Ignored State: closed (998)
+# Nmap done at Sat Jan 11 01:21:39 2020 -- 1 IP address (1 host up) scanned in 6.81 seconds
